@@ -42,30 +42,30 @@ export default function Home() {
           ))}
         </div>
       </section>
-      <section id="react" className="flex flex-wrap items-center w-100 p-10 justify-center bg-white">
-          <Image className="rounded" src={imgReact} width={250} height={250} alt="img"/>
-          <div className="flex flex-col justify-center items-center text-center gap-10">
+      <section id="react" className="flex flex-wrap items-center w-100 p-10 justify-center bg-white lg:p-36">
+          <Image className="rounded lg:w-[400px]" src={imgReact} width={250} height={250} alt="img"/>
+          <div className="flex flex-col justify-center items-center text-center gap-10 lg:w-[60%] lg:p-4">
             <h2 className="text-[18px] font-bold mt-10">React</h2>
             <p>O React é uma poderosa biblioteca para construção de interfaces visuais em JavaScript. Ou seja, é uma ferramenta ideal para o desenvolvimento front-end. No React, você pode adotar estruturas do HTML e do JavaScript em um só código, a fim de manipular os aspectos da apresentação de um site.</p>
           </div>
       </section>
-      <section id="tailwind" className="flex flex-col items-center w-100 p-10 justify-center">
-          <Image className="rounded" src={imgTailwind} width={250} height={250} alt="img"/>
-          <div className="flex flex-col justify-center items-center text-center gap-10">
+      <section id="tailwind" className="flex flex-wrap items-center w-100 p-10 justify-center lg:p-36">
+          <Image className="rounded lg:w-[400px]" src={imgTailwind} width={250} height={250} alt="img"/>
+          <div className="flex flex-col justify-center items-center text-center gap-10 lg:w-[60%] lg:p-4">
             <h2 className="text-[18px] text-white font-bold mt-10">Tailwind</h2>
             <p className="text-white">Tailwind CSS é uma estrutura CSS de código aberto. A principal característica desta biblioteca é que, ao contrário de outros frameworks CSS como o Bootstrap, ela não fornece uma série de classes predefinidas para elementos como botões ou tabelas.</p>
           </div>
       </section>
-      <section id="next" className="flex flex-wrap items-center w-100 p-10 justify-center bg-white">
-          <Image className="rounded" src={imgNext} width={250} height={250} alt="img"/>
-          <div className="flex flex-col justify-center items-center text-center gap-10">
+      <section id="next" className="flex flex-wrap items-center w-100 p-10 justify-center bg-white lg:p-36">
+          <Image className="rounded lg:w-[400px]" src={imgNext} width={250} height={250} alt="img"/>
+          <div className="flex flex-col justify-center items-center text-center gap-10 lg:w-[60%] lg:p-4">
             <h2 className="text-[18px] font-bold mt-10">Next</h2>
             <p>Next.js é uma estrutura da web de desenvolvimento front-end React de código aberto criada por Vercel que permite funcionalidades como renderização do lado do servidor e geração de sites estáticos para aplicativos da web baseados em React.</p>
           </div>
       </section>
-      <section id="jquery" className="flex flex-col items-center w-100 p-10 justify-center">
-          <Image className="rounded" src={imgJQuery} width={250} height={250} alt="img"/>
-          <div className="flex flex-col justify-center items-center text-center gap-10">
+      <section id="jquery" className="flex flex-wrap items-center w-100 p-10 justify-center lg:p-36">
+          <Image className="rounded lg:w-[400px]" src={imgJQuery} width={250} height={250} alt="img"/>
+          <div className="flex flex-col justify-center items-center text-center gap-10 lg:w-[60%] lg:p-4">
             <h2 className="text-[18px] text-white font-bold mt-10">jQuery</h2>
             <p className="text-white">jQuery é uma biblioteca livre que contém funções da linguagem de programação JavaScript que interage com páginas em HTML, desenvolvida para simplificar os scripts executados/interpretados no navegador de internet do usuário.</p>
           </div>
