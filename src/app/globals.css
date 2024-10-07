@@ -3,6 +3,14 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --white: #fffffd;
+  --black: #090909;
+  --dark-yellow: #ccb24c;
+  --yellow: #f7d683;
+  --light-yellow: #fffdc0;
+  --blue: #457d97;
+}
+
+* {
+  scroll-behavior: smooth;
 }
