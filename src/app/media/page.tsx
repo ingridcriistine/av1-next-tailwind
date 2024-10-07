@@ -51,7 +51,7 @@ const Imc: React.FC = () => {
 
     return (
         <div className="bg-black flex flex-col pt-24 items-center h-screen">
-            <div className="bg-lightYellow w-[70%] rounded h-auto p-14 flex flex-col justify-center items-center sm:w-[50%] shadow-md shadow-slate-100">
+            <div className="bg-white w-[70%] rounded h-auto p-14 flex flex-col justify-center items-center sm:w-[50%] shadow-md shadow-slate-100">
                 <h1 className="mb-10 font-bold">Cálculo de média</h1>
                 <div className={style.div}>
                     <input type="text" className={style.input} placeholder="Nota 1" value={n1} onChange={(e) => setN1(e.target.value)}/>
